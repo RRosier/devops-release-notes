@@ -1,0 +1,35 @@
+{
+  "name": "azuredevopsreleasenotestask",
+  "version": "0.1.0",
+  "description": "Azure DevOps release pipeline task for generating release notes per stage.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RRosier/devops-release-notes.git"
+  },
+  "keywords": [
+    "azure",
+    "devops",
+    "pipeline",
+    "task",
+    "release",
+    "notes"
+  ],
+  "author": "Ronald Rosier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RRosier/devops-release-notes/issues"
+  },
+  "homepage": "https://github.com/RRosier/devops-release-notes#readme",
+  "dependencies": {
+    "azure-devops-node-api": "^9.0.1",
+    "azure-pipelines-task-lib": "^2.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.6",
+    "@types/q": "^1.5.2"
+  }
+}
